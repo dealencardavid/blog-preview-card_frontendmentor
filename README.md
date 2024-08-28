@@ -23,8 +23,8 @@ Second challenge from the "Getting started on Frontend Mentor" learning path.
 
 ### Links
 
-- Solution URL: [Blog Preview Card - GitHub Repo](https://github.com/dealencardavid/qr-code-component_frontendmentor)
-- Live Site URL: [Blog Preview Card Live](https://dealencardavid.github.io/qr-code-component_frontendmentor/)
+- Solution URL: [Blog Preview Card - GitHub Repo](https://github.com/dealencardavid/blog-preview-card_frontendmentor)
+- Live Site URL: [Blog Preview Card Live](https://dealencardavid.github.io/blog-preview-card_frontendmentor/)
 
 ## My process
 
@@ -39,15 +39,14 @@ Second challenge from the "Getting started on Frontend Mentor" learning path.
 Good oportunity to practice hover/active/focus state using css!
 
 ```css
-:root {
-  --slate-900: #1f314f;
-  --slate-500: #68778d;
-  --slate-300: #d5e1ef;
-  --white: #fff;
+.card:hover {
+  cursor: pointer;
+}
 
-  --spacing-500: 40px;
-  --spacing-300: 24px;
-  --spacing-200: 16px;
+.card:hover .card-title,
+.card:active .card-title,
+.card:focus .card-title {
+  color: var(--yellow);
 }
 ```
 
