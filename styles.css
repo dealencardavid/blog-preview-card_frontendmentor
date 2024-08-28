@@ -44,6 +44,7 @@ main {
 
 .card-img {
   width: 336px;
+  height: 200px;
   border-radius: 10px;
 }
 
@@ -102,6 +103,7 @@ main {
 
 .author-avatar {
   width: 32px;
+  height: 32px;
 }
 
 .author-name {
